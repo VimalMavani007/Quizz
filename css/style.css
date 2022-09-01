@@ -1,0 +1,197 @@
+body{
+    font-family: 'Poppins Medium', sans-serif;
+}
+::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0.1);  
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #6A5AE0; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #5c4ec7; 
+  }
+.bg-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/pexels-jakub-novacek-924824\ 1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+.main-container{
+    max-width: 430px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 5px #6A5AE0;
+    border-radius: 8px;
+    background-color: #2C2B30;
+    background-image: url(../images/Mask_group.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: auto;
+    display: flex;
+}
+.main-img-logo{
+    margin:10px 0 25px 0;
+}
+.bg-primary{
+    background-color: #6A5AE0 !important;
+}
+.main-count-wrapper .main-count-circle{
+    height: 85px;
+    width: 85px;
+    line-height: 85px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+    color:#fff;
+    box-shadow: 0px 0px 15px rgba(61,225,208,0.5);
+}
+.main-count-wrapper .main-count-text{
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    opacity: 0.9;
+}
+.main-center-text{
+    opacity: 0.7;
+    font-family: 'Poppins Light', sans-serif;
+    letter-spacing: 1px;
+}
+.main-bottom-text{
+    color:#fff;
+    text-align: center;
+    font-size: 28px;
+    margin: 3rem 0;
+    padding:0 3.3rem;
+}
+.btn-primary{
+    background-color: #6A5AE0 !important;
+    border-color:  #6A5AE0 !important;
+}
+.btn:focus{
+    box-shadow: none !important;
+}
+.main-bottom-button .btn{
+    width: 15rem;
+    height: 45px;
+    line-height: 32px;
+    border-radius: 10px;
+    font-size: 19px;
+    box-shadow: 0px 0px 15px rgba(61,225,208,0.3);
+}
+.text-primary{
+    color: #6A5AE0 !important;
+}
+.quizz-title{
+    font-size: 24px;
+    padding: 20px;
+    position: relative;
+}
+.quizz-title::after{
+    content: '';
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    width: 100px;
+    height: 3px;
+    background-color: #3DE1D0;
+}
+.text-secondary{
+    color: #3DE1D0 !important;
+}
+.quiz-question-box-count{
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 20px;;
+}
+.quiz-question-box-wrap{
+    background-color: rgba(106, 90, 224, 0.24);
+    border-radius: 15px;
+    padding: 15px;
+    min-height: 8rem;;
+    color: #fff;
+}
+.quiz-question-box {
+    padding:0 20px;
+}
+.quiz-answer-wrapper{
+    padding: 2rem 20px 1rem;
+}
+.quiz-answer-wrapper .qa-ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.quiz-answer-wrapper .qa-ul .qa-list-section{
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    color: #fff;
+    text-decoration: none;
+    padding: 1.2rem;
+}
+.quiz-answer-wrapper .qa-ul .qa-list-section .qa-count{
+    display: inline-flex;
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.quiz-answer-wrapper .qa-ul > li {
+    margin-bottom: 10px;
+}
+.quiz-answer-wrapper .qa-ul .qa-list-section .qa-text{
+    font-size: 18px;
+}
+.qa-right {
+    background-color: #3DE1D0;
+}
+.qa-wrong{
+    background-color: #FF5A5A;
+}
+.quiz-bottom-des{
+    padding: 0 20px;
+}
+.quiz-bottom-des .quiz-bottom-des-title{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+.quiz-bottom-ul{
+    list-style: none;
+}
+.quiz-bottom-ul > li{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Poppins Light', sans-serif;
+    position: relative;   
+}
+.quiz-bottom-ul > li:after {
+    content: '_';
+    position: absolute;
+    left: -28px;
+    top: -6px;
+    opacity: 0.8;
+}
