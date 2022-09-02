@@ -148,7 +148,7 @@ body{
     border-radius: 15px;
     color: #fff;
     text-decoration: none;
-    padding: 1.2rem;
+    padding: 1rem 1.2rem;
 }
 .quiz-answer-wrapper .qa-ul .qa-list-section .qa-count{
     display: inline-flex;
@@ -194,4 +194,93 @@ body{
     left: -28px;
     top: -6px;
     opacity: 0.8;
+}
+.q-title{
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+.q-title::after {
+    content: '';
+    position: absolute;
+    bottom: 8px;
+    left: 0;
+    right:0;
+    margin:auto;
+    width: 100px;
+    height: 3px;
+    background-color: #3DE1D0;
+}
+.q-sub-title{
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    margin-top: -5px;
+}
+.q-login-img-wrapper .q-login-img-section{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+}
+.q-login-img-wrapper .q-login-img-section > img{
+    height: 68px;
+}
+.q-login-img-wrapper{
+    padding:15px 0;
+}
+.q-form-control .f-title{
+    color: #fff;
+    display: block;
+    padding-bottom: 8px;
+}
+.q-form-control .form-control{
+    background-color: #222222;
+    border:none;
+    height: 45px;
+    color: #fff;
+}
+.login-form-wrapper{
+    padding: 0 20px;
+}
+.q-form-control {
+    margin-bottom: 15px;
+}
+.login-btn {
+    display: block;
+    width: 100%;
+    height: 45px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.login-tc{
+    color: #fff;
+    text-align: center;
+    font-size: 11px;
+    margin-bottom: 10px;
+    font-family: 'Poppins Light', sans-serif;
+}
+.login-desc ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.login-desc ul li{
+    color: #Fff;
+    font-family: 'Poppins Light', sans-serif;
+    font-size: 12px;   
+}
+.register-btn-wrapper{
+    padding-bottom: 10px;
+}
+.register-btn{
+    background-color: #3DE1D0;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 13px;
+    padding: 3px 15px;
 }
