@@ -566,3 +566,60 @@ body{
     font-size: 14px;
     color: #999;
 }
+.detail-wrapper{
+    background-color: #Fff;
+    border-top: 4px solid #6A5AE0;
+    padding: 20px;
+    background-color: rgba(35, 32, 39, 0.5);
+    background-repeat: no-repeat;
+    background-position: center 50%;    
+    margin: 15px;
+    border-radius: 15px;
+}
+.detail-header .detail-header-left{
+    margin-right: 15px;
+}
+.detail-header .detail-header-left > img{
+    height: 118px;
+}
+.detail-header {
+    margin: 20px;
+}
+.ql-content-text > ul > li{
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 5px;
+    position: relative;
+    list-style: none;
+}
+.ql-content-text > ul > li:after{
+    content: '';
+    position: absolute;
+    left: -28px;
+    top: 2px;
+    height: 18px;
+    width: 18px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/butllet-coin.png);
+    background-size: 15px;
+}
+.detail-header-right .detail-header-right-c{
+    margin-bottom: 5px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #3DE1D0;
+}
+.detail-header-right .detail-header-right-b{
+    margin-bottom: 5px;
+    color: #Fff;
+    font-size: 26px;
+}
+.detail-header-right .detail-header-right-a{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.ql-content-text .btn{
+    border-radius: 50px;
+    padding: 8px 2rem;
+}
