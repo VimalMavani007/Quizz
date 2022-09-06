@@ -24,3 +24,15 @@ $('#LifelineClose').click(function(){
         $('.custom-backdrop').remove();
     }
 })
+$('#SideWrapperBtn').on('click', function(e){
+    $('#sideWrapper').addClass('open');
+    if($('#sideWrapper').hasClass('open')){
+        $('.main-container').append('<div class="custom-backdrop" style="opacity:1;"></div>')
+    }
+})
+$('#sideWrapperCloseBtn').click(function(){
+    $('#sideWrapper').removeClass('open');
+    if(!$('#sideWrapper').hasClass('open')){
+        $('.custom-backdrop').remove();
+    }
+})
