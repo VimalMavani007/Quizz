@@ -297,7 +297,7 @@ body{
 
 }
 .g-sub-wrapper{
-    padding: 1.5rem 0;
+    padding: 1rem 0;
 }
 .g-sub-wrapper > .g-sub-img{
     margin-right: 15px;
@@ -312,7 +312,7 @@ body{
     left: 0;
 }
 .g-button-wrapper {
-    padding-bottom: 40px;
+    padding-bottom: 25px;
     padding-top: 15px;    
 }
 .g-button{
@@ -323,6 +323,7 @@ body{
     padding: 0 20px 0 0 ;
     background-color: transparent;
     transition: all 0.5s;
+    margin:3px;
 }
 .g-button:hover > .g-button-text{
     color:#fff;
@@ -637,13 +638,12 @@ body{
 .life-line-box:hover{
     color: #222;
     opacity: 1;
-    
 }
 .life-line-box{
     opacity: 0.8;
     transition: all 0.5s;;
-    height: 116px;
-    width: 116px;
+    height: 90px;
+    width: 90px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -792,6 +792,7 @@ body{
     margin-left: 15px;
     color: #6a5ae0;
     transition: all 0.5s;
+    margin:3px;
     text-decoration: none;
 }
 .dobuble-coin-btn:hover{
@@ -799,3 +800,11 @@ body{
     
     background-color:#ffc200 ;
 }
+@media screen and (max-width: 450px) {
+    .main-container{
+        max-width: 100%;
+    }
+    .bg-container{
+        padding: 0;
+    }
+  }
